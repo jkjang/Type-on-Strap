@@ -1,9 +1,8 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
-title: Type on Strap # site's title
+baseurl: ""
+url: "https://jkjang.github.io"
+title: jkjang blog
 description: "A website with blog posts and pages" # used by search engines
-
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -113,7 +112,7 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
-#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
+theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules", "gulpfile.js", ".idea/*"]
 
-theme: jekyll-theme-architect
+#theme: jekyll-theme-architect
