@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Sample post
-tags: [Test, Lorem, Ipsum]
+title: 기업형 SNS
+date: 2018-06-02
+tags: [sns, Lorem, Ipsum]
 excerpt_separator: <!--more-->
 ---
 
