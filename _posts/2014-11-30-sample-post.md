@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 기업형 SNS
+title: Fishing Story Blog
 date: 2018-06-02
-tags: [sns, Lorem, Ipsum]
+tags: [fishing, story, 낚시, 선상낚시, 민물낚시,]
 excerpt_separator: <!--more-->
 ---
 
