@@ -1,13 +1,13 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://jkjang.github.io"
-title: {<jkjang />}
-description: "A website with blog posts and pages" # used by search engines
+title: "< jkjang />"
+description: "Jang geguk blog" # used by search engines
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Welcome to my Jekyll blog # blog's title
+  title:  # blog's title
   avatar: assets/img/coollogo_com-10904135.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
