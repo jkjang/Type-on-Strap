@@ -37,7 +37,7 @@ export class Sidebar extends Component {
       >
         <a className="navbar-brand" href="#page-top">
           <span className="d-block d-lg-none">
-            {config.firstName} {config.lastName}
+            {config.fullName} 
           </span>
           <span className="d-none d-lg-block">
             <img
