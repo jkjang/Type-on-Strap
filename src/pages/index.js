@@ -1,45 +1,22 @@
-import React from 'react';
-import {
-  Header,
-  Summary,
-  Experience,
-  Projects,
-  Skills,
-  List,
-  Education,
-  Footer,
-  SEO
-} from '../components';
-import resume from '../../data/profile';
-import '../main.css';
+import React from "react"
+import { Link } from "gatsby"
 
-const Home = () => (
-  <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
-    <SEO title="Resume" />
-    <div className="container mx-auto shadow bg-white py-5 px-10">
-      <Header
-        contacts={resume.contact}
-        name={resume.fullname}
-        role={resume.role}
-      />
-      <Summary data={resume.summary} />
-      <div className="border-b border-neutral-300 pb-2 my-5 lg:flex">
-        <div className="lg:w-2/3 lg:pr-8">
-          {resume.experience && <Experience data={resume.experience} />}
-          {resume.projects && <Projects data={resume.projects} />}
-        </div>
-        <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 ">
-          {resume.skills && <Skills data={resume.skills} />}
-          {resume.education && <Education data={resume.education} />}
-          {resume.sidebar &&
-            resume.sidebar.map(item => (
-              <List key={`${item.title}-side`} data={item} />
-            ))}
-        </div>
-      </div>
-      <Footer social={resume.social} />
+import Layout from "../components/layout"
+import Image from "../components/image"
+import SEO from "../components/seo"
+
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" />
+    <h1>Hi people1</h1>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+      <Image />
     </div>
-  </main>
-);
+    <Link to="/page-2/">Go to page 2</Link> <br />
+    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+  </Layout>
+)
 
-export default Home;
+export default IndexPage

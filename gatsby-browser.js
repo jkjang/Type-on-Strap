@@ -1,9 +1,7 @@
-export const onServiceWorkerUpdateReady = () => {
-  // eslint-disable-next-line no-alert
-  const answer = window.confirm(
-    'This application has been updated. Reload to display the latest version?'
-  );
-  if (answer === true) {
-    window.location.reload();
-  }
-};
+/**
+ * Implement Gatsby's Browser APIs in this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/browser-apis/
+ */
+
+// You can delete this file if you're not using it
