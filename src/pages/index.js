@@ -13,7 +13,7 @@ const IndexPage = () => (
         id="about"
       >
         <div className="w-100">
-          <h1 className="mb-0">
+          <h1 className="mb-2">
             {config.fullName}
             <span className="text-primary">{config.lastName}</span>
           </h1>
@@ -21,11 +21,10 @@ const IndexPage = () => (
             {config.address} · {config.phone} ·
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
-          <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+          <p className="lead mb-5">    
+          지금 현재는 Web Front-End 파트에서 글로벌 플랫폼 개발을 하고 있으며 2021년 15년차가 되는 개발자 입니다. <br/>
+          "나의 주변 사람들 성장을 위해 필요한 사람! 본인보다 상대방을 생각하고 <br/>
+          상대방의 성공과 행복이 저에게 기쁨이 되고 서로 성장하고 배려할 수 있는 사람이 되겠습니다."
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {

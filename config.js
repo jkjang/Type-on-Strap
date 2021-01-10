@@ -32,7 +32,7 @@ module.exports = {
       url: 'https://www.facebook.com/jkjang81',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'jkjang81@gmail.com',
+  phone: '010-5122-XXXX',
+  address: '경기도 부천시 계남로 144',
 };

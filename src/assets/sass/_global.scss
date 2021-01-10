@@ -3,9 +3,7 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: #999999;
-  // background-color: rgb(30, 30, 30);
-
+  color: $default-font-color;
   background-color: rgb(30, 30, 30);
 }
 @media (min-width: 992px) {
@@ -24,7 +22,7 @@ h6 {
   @include heading-font;
   font-weight: 700;
   text-transform: uppercase;
-  color: $white;
+  color: $default-font-color;
 }
 
 h1 {
